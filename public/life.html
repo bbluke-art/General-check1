@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life in Thailand | ThaiDev</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-24">
+        <section class="text-center mb-16">
+            <h1 class="text-4xl font-bold mb-6 text-indigo-700">My Life in Thailand</h1>
+            <p class="text-xl max-w-2xl mx-auto">Daily experiences, cultural insights, and personal growth</p>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-12 mb-20">
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 text-indigo-600">Daily Routine</h2>
+                <p class="mb-4">Balancing work and exploration in the vibrant Thai culture.</p>
+                <p>Morning meditation at local temples, coding sessions in cozy cafes, and evening street food adventures.</p>
+            </div>
+            <img src="http://static.photos/cityscape/640x360/10" alt="Bangkok life" class="rounded-xl shadow-lg">
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center text-indigo-600">Cultural Highlights</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Festivals</h3>
+                    <p>Experiencing Songkran, Loy Krathong, and other vibrant Thai celebrations.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Food Culture</h3>
+                    <p>From street food to royal cuisine - a culinary journey through Thailand.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Buddhist Traditions</h3>
+                    <p>Learning meditation and mindfulness from local monks.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Language App | ThaiDev</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="../../components/navbar.js"></script>
+    <script src="../../components/footer.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-24">
+        <section class="text-center mb-16">
+            <h1 class="text-4xl font-bold mb-6 text-indigo-700">Thai Language Learning App</h1>
+            <p class="text-xl max-w-2xl mx-auto">Helping foreigners master Thai tones and phrases</p>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-12 mb-20">
+            <div>
+                <h2 class="text-2xl font-bold mb-4 text-indigo-600">Project Overview</h2>
+                <p class="mb-4">A mobile-first application designed to make learning Thai accessible and fun.</p>
+                <p>Features include tone recognition, phrase practice, and cultural context for better understanding.</p>
+                
+                <div class="mt-8">
+                    <h3 class="text-xl font-semibold mb-3">Technologies Used</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">React Native</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Node.js</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">MongoDB</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">TensorFlow.js</span>
+                    </div>
+                </div>
+            </div>
+            <img src="http://static.photos/technology/640x360/15" alt="App interface" class="rounded-xl shadow-lg">
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center text-indigo-600">Features</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Tone Trainer</h3>
+                    <p>Interactive exercises to master the five Thai tones with voice recognition.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Daily Phrases</h3>
+                    <p>Essential phrases for travelers and expats with audio pronunciation.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Culture Notes</h3>
+                    <p>Contextual learning with cultural insights and etiquette tips.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    
+    <script>
+        feather.replace();
+    </script>
+    <script src="../../script.js"></script>
+</body>
+</html>
